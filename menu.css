@@ -1,0 +1,94 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto thin", serif;
+    text-align: left;
+    min-width: 300px;
+    max-width: 300px;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    background-color: var(--nav-bkg);
+    color: var(--color-text);
+    box-shadow: 17px 3px 28px -6px #636363;
+    z-index: 1;
+    cursor: default;
+}
+
+.shadow {
+    min-width: 300px;
+}
+
+nav div {
+    width: 100%;
+}
+
+.ul-nav ul, .submenue ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-embed {
+    background: white;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+.slogan img {
+    transform: translateX(10px);
+}
+
+.ul-nav, .submenue, .social-icone {
+    font-size: 24px;
+    text-align: right;
+}
+
+.ul-nav li, .submenue li, .social-icone, .title-submenue {
+    box-sizing: border-box;
+    padding-right: 1em;
+}
+
+.ul-nav li {
+    height: 61px;
+    padding-top: 0.75em;
+    background-color: #30383c;
+}
+
+.ul-nav li:hover {
+    background-color: #23aeac;
+}
+
+.submenue {
+    padding-top: 0.75em;
+    color: #1ab5b3;
+    border-bottom: solid #1e282b 2px;
+
+}
+.ul-submenue {
+    padding-top: 18px;
+}
+.ul-submenue li, .social-icone p {
+    padding-bottom: 15px;
+    color: #3f4547;
+    font-size: 17px;
+}
+
+.ul-submenue li:hover{
+    color: var(--color-text);
+}
+
+.social-icone {
+    padding-top: 36px;
+}
+
+.social-icone img{
+    cursor: pointer;
+}

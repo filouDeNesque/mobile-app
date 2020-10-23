@@ -1,0 +1,157 @@
+:root {
+    --card-odd-background: #acacac;
+    --card-background: #d7d7d7;
+    --card-hover-background: #2db8b7db;
+    --color-text: #ffffff;
+    --nav-bkg: #242b2e;
+}
+
+@font-face {
+    font-family: "Roboto thin";
+    src: url("assets/Font/Roboto-Light.ttf");
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    height: 311px;
+    width: 350px;
+    overflow: hidden;
+    background: center url('assets/Image/img1.jpg');
+}
+
+@media (min-width: 1900px) {
+    .card, .hover-box {
+        width: 516px !important;
+    }
+    .hover-box p::after {
+        left: 148px;
+    }
+}
+
+.card1 {
+    background: center/80% url('assets/Image/img2.jpg');
+}
+
+.card2 {
+    background: center url('assets/Image/img3.jpg');
+}
+
+.card3 {
+    background: center url('assets/Image/img4.jpg');
+}
+
+.card4 {
+    background: center url('assets/Image/img5.jpg');
+}
+
+.card5 {
+    background: center url('assets/Image/img6.jpg');
+}
+
+.card6 {
+    background: center url('assets/Image/img7.jpg');
+}
+
+.card7 {
+    background: center url('assets/Image/img8.jpg');
+}
+
+.card8 {
+    background: center url('assets/Image/img1.jpg');
+}
+
+.card9 {
+    background: center url('assets/Image/img9.jpg');
+}
+
+.card10 {
+    background: center url('assets/Image/img10.jpg');
+}
+
+.card11 {
+    background: center url('assets/Image/img11.jpg');
+}
+
+.card12 {
+    background: center url('assets/Image/img12.jpg');
+}
+
+.card13 {
+    background: center url('assets/Image/img13.jpg');
+}
+
+.card14 {
+    background: center url('assets/Image/img14.jpg');
+}
+
+.card15 {
+    background: center url('assets/Image/img15.jpg');
+}
+
+.hover-box {
+    background-color: var(--card-hover-background);
+    display: block;
+    position: absolute;
+    height: 311px;
+    width: 350px;
+    color: var(--color-text);
+    font-family: "roboto thin", serif;
+    text-align: center;
+    backdrop-filter: grayscale(100%) blur(2px);
+    -webkit-backdrop-filter: grayscale(100%) blur(2px);
+    transform: translateY(405px);
+    transition: transform 1s;
+}
+
+.card:hover .hover-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(0);
+}
+
+.hover-box h3 {
+    font-size: 19px;
+}
+
+.hover-box p {
+    font-size: 12px;
+}
+
+.hover-box p::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 112px;
+    background-color: var(--color-text);
+    top: 169px;
+    left: 198px;
+}
+
+.fas {
+    margin-top: 1em;
+    font-size: 1.5rem;
+    border: solid var(--color-text);
+    border-width: 2px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hover-box span:hover {
+    color: var(--card-odd-background);
+    border-color: var(--card-odd-background);
+}
