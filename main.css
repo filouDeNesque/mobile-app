@@ -27,7 +27,7 @@ body {
 .card {
     position: relative;
     height: 311px;
-    width: 350px;
+    width: 320px;
     overflow: hidden;
     background: center url('assets/Image/img1.jpg');
 }
