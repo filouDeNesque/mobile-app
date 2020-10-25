@@ -106,8 +106,8 @@ body {
     background-color: var(--card-hover-background);
     display: block;
     position: absolute;
-    height: 311px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
     color: var(--color-text);
     font-family: "roboto thin", serif;
     text-align: center;
@@ -139,7 +139,7 @@ body {
     width: 117px;
     background-color: var(--color-text);
     top: 169px;
-    left: 120px;
+    left: 32%;
 }
 
 .fas {
