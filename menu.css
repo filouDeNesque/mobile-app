@@ -122,6 +122,9 @@ ul a {
     .social-icone {
         display: none;
     }
+    .ul-nav {
+        padding-top: 6em;
+    }
     .ul-nav li {
         padding: 0.5em;
         text-align: center;
@@ -134,8 +137,10 @@ ul a {
         background-color: #364048;
         margin: 4px 0;
     }
-    .logo-embed{
+    .logo-embed {
         height: auto;
+        position: fixed;
+        background-color: #ffffffa8;
     }
 }
 
@@ -143,13 +148,14 @@ ul a {
     display: flex !important;
     justify-content: center;
 }
-.menu-icone{
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 1em 0;
+
+.menu-icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;
 }
 
-.color-btn{
-    background-color: #4b535b9c ;
+.color-btn {
+    background-color: #4b535b9c;
 }

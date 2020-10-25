@@ -29,7 +29,6 @@ menu.addEventListener("click", function () {
         }
         menu_btn[0].style.transform = "rotate(0deg)"
         menu_btn[1].style.transform = "rotate(0deg)"
-        
         menu_btn[0].style.position = "initial"
         menu_btn[2].style.display = "block"
     }
