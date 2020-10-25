@@ -6,6 +6,7 @@
     position: fixed;
     background-color: #2db8b7;
     color: transparent;
+    border-radius: 5px;
 }
 
 .icone-info {
@@ -36,7 +37,7 @@
         color: transparent;
         bottom: 0;
     }
-    .icone-info{
+    .icone-info {
         position: relative;
         background-color: white;
         text-align: center;
@@ -52,5 +53,14 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
+}
 
+.info:hover {
+    background-color: #2db8b8ef;
+    color: black;
+}
+
+.icone-info:hover, .icone-info:active{
+    background-color: var(--card-background);
+    border-color: var(--color-text);
 }
