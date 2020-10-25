@@ -155,3 +155,18 @@ ul a {
 .color-btn {
     background-color: #4b535b9c;
 }
+
+.anchor{
+    position: fixed;
+    border: solid #30383c;
+    left: 90vw;
+    transform: rotate(45deg);
+    width: 20px;
+    height: 20px;
+    top: 90vh;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 20px;
+    cursor: pointer;
+}
+}
