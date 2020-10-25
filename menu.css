@@ -141,7 +141,6 @@ ul a {
     .anchor {
         left: 70vw !important;
     }
-    
 }
 
 .mobile-active {
@@ -160,14 +159,14 @@ ul a {
     background-color: #4b535b9c;
 }
 
-.anchor{
+.anchor {
     position: fixed;
     border: solid white;
     left: 90vw;
     transform: rotate(45deg);
     width: 20px;
     height: 20px;
-    top: 80vh;
+    top: 94vh;
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-width: 20px;
@@ -175,7 +174,8 @@ ul a {
     border-radius: 10px;
 }
 
-.anchor:hover , .anchor:active{
-    border-left-color: #30383c ;
+.anchor:hover, .anchor:active {
+    border-left-color: #30383c;
     border-top-color: #30383c;
 }
+

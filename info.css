@@ -1,0 +1,27 @@
+.info {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    top: 0%;
+    left: 92%;
+    position: fixed;
+    background-color: #2db8b7;
+    color: transparent;
+}
+
+.icone-info {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    font-size: 100px;
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    padding: 17px;
+    margin: 0;
+    left: 16%;
+    top: 14%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
