@@ -24,3 +24,33 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+@media (max-width: 630px) {
+    .info {
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        top: auto;
+        position: fixed;
+        background-color: #2db8b7;
+        color: transparent;
+        bottom: 0;
+    }
+    .icone-info{
+        position: relative;
+        background-color: white;
+        text-align: center;
+        font-size: 2rem;
+        height: 2rem;
+        width: 2rem;
+        border-width: initial;
+        padding: 0px;
+        margin: 0;
+        left: 29%;
+        top: 33%;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+}
