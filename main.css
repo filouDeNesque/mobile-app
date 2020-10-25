@@ -136,7 +136,7 @@ body {
     position: absolute;
     content: "";
     height: 1px;
-    width: 117px;
+    width: 37%;
     background-color: var(--color-text);
     top: 169px;
     left: 32%;
