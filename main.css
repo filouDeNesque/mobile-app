@@ -34,7 +34,8 @@ body {
 
 @media (min-width: 1900px) {
     .card, .hover-box {
-        width: 516px !important;
+        width: 400px !important;
+        max-width: 4 00px;
     }
     .hover-box p::after {
         left: 148px;
